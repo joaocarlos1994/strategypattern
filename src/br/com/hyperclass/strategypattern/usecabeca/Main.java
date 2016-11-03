@@ -27,7 +27,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Duck mallard = new MallarDuck();
+		Duck mallard = MallarDuck.valeOfMallarDuck(new FlyWithWings(), new Quack());
 		mallard.perfomQuack();
 		mallard.perfomFly();
 
